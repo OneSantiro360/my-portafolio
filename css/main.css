@@ -29,8 +29,8 @@ a{
     margin: auto;
 }
 .tittle{
-    /* text-align: center; */
     color: aqua;
+    float: right;
 }
 /*DESPLEGABLE*/
 .sub-menu{
