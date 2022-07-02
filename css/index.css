@@ -52,3 +52,7 @@
 .aside a:hover{
     opacity: .5;
 }
+.novedad{
+    text-align: center;
+    margin: 10px 0;
+}
