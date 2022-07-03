@@ -91,6 +91,9 @@ main{
     .menu-btn{
         display: block;
     }
+    .menu-btn.show{
+        opacity: 0.5;
+    }
     .nav-web ul.nav-menu{
     display: block;
     position: absolute;
