@@ -84,7 +84,7 @@ main{
 
 
 /*media*/
-@media (max-width: 800px){
+@media (max-width: 820px){
     .nav-late{
         display: none;
     }
