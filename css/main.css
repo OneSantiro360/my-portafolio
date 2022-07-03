@@ -117,3 +117,9 @@ main{
         margin-right: 50px;
     }
 }
+@media (max-width: 500px){
+    .tittle{
+        font-size: 2rem;
+        
+    }
+}

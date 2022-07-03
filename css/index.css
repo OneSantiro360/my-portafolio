@@ -83,10 +83,6 @@
     }
 }
 @media (max-width: 500px){
-    .tittle{
-        font-size: medium;
-        margin-top: 2vh;
-    }
     .content{
         grid-template-columns: 1fr;
         margin: 10px 0;
