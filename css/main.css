@@ -89,6 +89,11 @@ main{
     margin: 10px 0;
 }
 
+/*SEARCH*/
+.search-btn{
+    cursor: pointer;
+}
+
 /*RESPONSIVE*/
 .menu-btn {
     cursor: pointer;
@@ -117,14 +122,15 @@ main{
     top: 0;
     left: 0;
     background: #2f3640;
+    width: 30vh;
     height: auto;
     padding: 30px;
     opacity: .9;
-    transform: translate(-300px);
+    transform: translateX(-300px);
     transition: transform 0.5s ease-in-out;
     }
     .nav-web ul.nav-menu.show{
-        transform: translate(-53px);
+        transform: translateX(-53px);
     }
     .nav-menu li{
         padding: 20px;
@@ -139,6 +145,7 @@ main{
     .sub-menu{
         display: none;
         padding: 0 0;
+        transform: translatex(-20px);
     }
     .sub-menu.show{
         display: block;
@@ -146,9 +153,13 @@ main{
     .sub-menu2{
         display: none;
         padding: 0 0;
+        transform: translatex(-20px);
     }
     .sub-menu2.show{
         display: block;
+    }
+    .search-btn.show{
+        opacity: 0.5;
     }
 }
 @media (max-width: 500px){

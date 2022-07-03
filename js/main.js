@@ -13,3 +13,7 @@ document.querySelector(".apartado").addEventListener("click", () => {
 document.querySelector(".apartado2").addEventListener("click", () => {
     document.querySelector(".sub-menu2").classList.toggle("show");
 });
+
+document.querySelector(".search-btn").addEventListener("click", () => {
+    document.querySelector(".search-btn").classList.toggle("show");
+});
