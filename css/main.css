@@ -32,20 +32,34 @@ a{
     color: aqua;
     float: right;
 }
+@media (min-width: 821px){
+    /*DESPLEGABLE*/
+    .sub-menu{
+        flex-direction: column;
+        position: absolute;
+        background: #333;
+        padding: 0.5rem 0.5rem;
+        display: none;
+    }
+    .sub-menu2{
+        flex-direction: column;
+        position: absolute;
+        background: #333;
+        padding: 0.5rem 0.5rem;
+        display: none;
+    }
+    .apartado:hover+.sub-menu,
+    .sub-menu:hover{
+        display: flex;
+    }
+    .apartado2:hover+.sub-menu2,
+    .sub-menu2:hover{
+        display: flex;
+    }
+}
+
 .menu-img{
     width: 20px;
-}
-/*DESPLEGABLE*/
-.sub-menu{
-    flex-direction: column;
-    position: absolute;
-    background: #333;
-    padding: 0.5rem 0.5rem;
-    display: none;
-}
-.apartado:hover+.sub-menu,
-.sub-menu:hover{
-    display: flex;
 }
 /*NAV*/
 .nav-web{
@@ -119,10 +133,26 @@ main{
     .nav-menu-right {
         margin-right: 50px;
     }
+    .menu-img{
+        /* width: 10px; */
+    }
+    .sub-menu{
+        display: none;
+        padding: 0 0;
+    }
+    .sub-menu.show{
+        display: block;
+    }
+    .sub-menu2{
+        display: none;
+        padding: 0 0;
+    }
+    .sub-menu2.show{
+        display: block;
+    }
 }
 @media (max-width: 500px){
     .tittle{
         font-size: 2rem;
-        
     }
 }
