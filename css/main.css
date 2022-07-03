@@ -16,11 +16,6 @@ a{
     color: #fff;
     cursor: pointer;
 }
-.nav-menu a:hover{
-    color: #ce7d35;
-    transition: all .3s;
-    border-bottom: 2px solid #fff;
-}
 .esta{
     color: #ce7d35;
 }
@@ -55,6 +50,11 @@ a{
     .apartado2:hover+.sub-menu2,
     .sub-menu2:hover{
         display: flex;
+    }
+    .nav-menu a:hover{
+        color: #ce7d35;
+        transition: all .3s;
+        border-bottom: 2px solid #fff;
     }
 }
 
@@ -135,13 +135,11 @@ main{
     .nav-menu li{
         padding: 20px;
         font-size: 14px;
+        border-bottom: #ccc solid 1px;
     }
     .nav-menu-right {
         margin-right: 50px;
     }
-    /* .menu-img{
-        width: 10px;
-    } */
     .sub-menu{
         display: none;
         padding: 0 0;
