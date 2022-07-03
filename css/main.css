@@ -71,3 +71,49 @@ a{
 main{
     margin: 10px 0;
 }
+
+/*RESPONSIVE*/
+.menu-btn {
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    z-index: 2;
+    display: none;
+}
+
+
+/*media*/
+@media (max-width: 800px){
+    .nav-late{
+        display: none;
+    }
+    .menu-btn{
+        display: block;
+    }
+    .menu-btn:hover{
+        opacity: 0.5;
+    }
+    .nav-web ul.nav-menu{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #2f3640;
+    height: auto;
+    padding: 30px;
+    opacity: .9;
+    transform: translate(-300px);
+    transition: transform 0.5s ease-in-out;
+    }
+    .nav-web ul.nav-menu.show{
+        transform: translate(-53px);
+    }
+    .nav-menu li{
+        padding: 20px;
+        font-size: 14px;
+    }
+    .nav-menu-right {
+        margin-right: 50px;
+    }
+}

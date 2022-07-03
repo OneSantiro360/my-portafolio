@@ -1,15 +1,6 @@
-.menu-btn {
-    cursor: pointer;
-    position: absolute;
-    top: 15px;
-    right: 30px;
-    z-index: 2;
-    display: none;
-}
-
 
 @media(max-width: 800px){
-    .nav-late{
+    /*.nav-late{
         display: none;
     }
     .menu-btn{
@@ -53,7 +44,7 @@
     }
     .nav-menu-right {
         margin-right: 50px;
-    }
+    }*/
     .content{
         grid-template-columns: repeat(2, 1fr);
         width: 100%;
