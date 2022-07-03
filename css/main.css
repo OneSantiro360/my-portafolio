@@ -105,7 +105,6 @@ main{
     }
     .nav-web ul.nav-menu.show{
         transform: translate(-53px);
-        opacity: 0.5
     }
     .nav-menu li{
         padding: 20px;
