@@ -32,6 +32,9 @@ a{
     color: aqua;
     float: right;
 }
+.menu-img{
+    width: 20px;
+}
 /*DESPLEGABLE*/
 .sub-menu{
     flex-direction: column;
