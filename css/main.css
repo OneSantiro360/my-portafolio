@@ -133,9 +133,9 @@ main{
     .nav-menu-right {
         margin-right: 50px;
     }
-    .menu-img{
-        /* width: 10px; */
-    }
+    /* .menu-img{
+        width: 10px;
+    } */
     .sub-menu{
         display: none;
         padding: 0 0;
