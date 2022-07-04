@@ -131,7 +131,8 @@ main{
     opacity: .9;
     transform: translateX(-300px);
     transition: transform 0.5s ease-in-out;
-    margin-top: 9vh;
+    margin-top: 11vh;
+    
     }
     .nav-web ul.nav-menu.show{
         transform: translateX(-53px);
@@ -160,8 +161,12 @@ main{
     .sub-menu2.show{
         display: block;
     }
+    /*SEARCH*/
     .search-btn.show{
         opacity: 0.5;
+    }
+    .nav-menu.search{
+        margin-top: 15vh;
     }
 }
 @media (max-width: 500px){
