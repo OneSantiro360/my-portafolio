@@ -1,0 +1,28 @@
+.img{
+    border: solid #ccc;
+    display: flex;
+    width: 30%;
+    margin: 10vh 5vh;
+}
+.img img{
+    width: 50%;
+}
+.content{
+    width: 50%;
+    float: right;
+    flex-direction: column;
+    display: flex;
+    /* align-items: center; */
+    padding: 0 1rem;
+}
+.content h4{
+    padding-top: 15px;
+}
+.content h2{
+    padding: 1vh 0;
+}
+.content img{
+    width: 5vh;
+    padding: 17px 0;
+    align-items: center;
+}
