@@ -6,6 +6,7 @@ document.querySelector(".menu-btn").addEventListener("click", () => {
     document.querySelector(".menu-btn").classList.toggle("show");
 });
 
+/*MENU DESPLEGABLE*/
 document.querySelector(".apartado").addEventListener("click", () => {
     document.querySelector(".sub-menu").classList.toggle("show");
 });
