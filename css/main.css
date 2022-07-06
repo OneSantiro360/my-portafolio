@@ -26,6 +26,7 @@ a{
 .tittle{
     color: aqua;
     float: right;
+    font-size: 2rem;
 }
 @media (min-width: 821px){
     /*DESPLEGABLE*/
@@ -56,6 +57,7 @@ a{
         transition: all .3s;
         border-bottom: 2px solid #fff;
     }
+    /*SEARCH*/
 }
 
 .menu-img{
@@ -90,8 +92,22 @@ main{
 }
 
 /*SEARCH*/
-.search-btn{
+.xmark-btn{
+    display: none;
+}
+.search-btn,
+.xmark-btn{
     cursor: pointer;
+}
+.search-btn.show{
+    display: none;
+}
+.xmark-btn.search{
+    display: block;
+}
+.icon-X{
+    float: right;
+    margin-left: 1vh;
 }
 
 /*RESPONSIVE*/
@@ -106,7 +122,7 @@ main{
 
 
 /*media*/
-@media (max-width: 820px){
+@media (max-width: 870px){
     .nav-late{
         display: none;
     }
@@ -142,9 +158,9 @@ main{
         font-size: 14px;
         border-bottom: #ccc solid 1px;
     }
-    /* .nav-menu-right {
+    .nav-menu-righttt {
         margin-right: 50px;
-    } */
+    }
     .sub-menu{
         display: none;
         padding: 0 0;
@@ -162,17 +178,6 @@ main{
         display: block;
     }
     /*SEARCH*/
-    .search-btn.show{
-        opacity: 0.5;
-    }
-    .nav-menu.search{
-        margin-top: 15vh;
-    }
-}
-@media (max-width: 500px){
-    .tittle{
-        font-size: 2rem;
-    }
 }
 @media (max-width: 350px){
     .tittle{

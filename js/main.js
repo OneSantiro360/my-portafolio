@@ -16,10 +16,10 @@ document.querySelector(".apartado2").addEventListener("click", () => {
 });
 
 /*SEARCH*/
-document.querySelector(".search-btn").addEventListener("click", () => {
+document.querySelector(".nav-menu-right").addEventListener("click", () => {
     document.querySelector(".search-btn").classList.toggle("show");
 });
 
-document.querySelector(".search-btn").addEventListener("click", () => {
-    document.querySelector(".nav-menu").classList.toggle("search");
-});
+document.querySelector(".nav-menu-right").addEventListener("click", () => {
+    document.querySelector(".xmark-btn").classList.toggle("search");
+});;
