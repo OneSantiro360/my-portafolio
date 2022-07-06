@@ -58,6 +58,10 @@ a{
         border-bottom: 2px solid #fff;
     }
     /*SEARCH*/
+    .search-btn,
+    .icon-X{
+        display: none;
+    }
 }
 
 .menu-img{
@@ -92,23 +96,6 @@ main{
 }
 
 /*SEARCH*/
-.xmark-btn{
-    display: none;
-}
-.search-btn,
-.xmark-btn{
-    cursor: pointer;
-}
-.search-btn.show{
-    display: none;
-}
-.xmark-btn.search{
-    display: block;
-}
-.icon-X{
-    float: right;
-    margin-left: 1vh;
-}
 
 /*RESPONSIVE*/
 .menu-btn {
@@ -178,6 +165,23 @@ main{
         display: block;
     }
     /*SEARCH*/
+    .xmark-btn{
+        display: none;
+    }
+    .search-btn,
+    .xmark-btn{
+        cursor: pointer;
+    }
+    .search-btn.show{
+        display: none;
+    }
+    .xmark-btn.search{
+        display: block;
+    }
+    .icon-X{
+        float: right;
+        margin-left: 1vh;
+    }
 }
 @media (max-width: 350px){
     .tittle{
