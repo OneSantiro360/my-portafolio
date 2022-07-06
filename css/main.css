@@ -57,11 +57,6 @@ a{
         transition: all .3s;
         border-bottom: 2px solid #fff;
     }
-    /*SEARCH*/
-    .search-btn,
-    .icon-X{
-        display: none;
-    }
 }
 
 .menu-img{
@@ -181,9 +176,6 @@ main{
     .icon-X{
         float: right;
         margin-left: 1vh;
-    }
-    .input-search{
-        display: none;
     }
 }
 @media (max-width: 350px){
