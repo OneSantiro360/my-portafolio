@@ -1,7 +1,7 @@
 /*BANNER ONE*/
 
 .banner-one{
-    width: 90%;
+    width: 80%;
     height: 550px;
     background: url("./img/banner-one.jpeg") no-repeat center center/cover;
 }
@@ -12,7 +12,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 25px;
     margin: 30px 0;
-    width: 90%;
+    width: 80%;
 }
 .content img{
     width: 100%;
@@ -39,9 +39,10 @@
 /*NAV LATE*/
 .nav-late{
     /* display: none; */
-    width: 10%;
+    width: 20%;
     border: solid #ccc;
     float: right;
+    text-align: center;
 }
 .aside li{
     margin: 10px 2vh;
@@ -58,7 +59,12 @@
 }
 
 /*RESPONSIVE*/
-@media(max-width: 820px){
+@media(min-width: 871px){
+    h2.novedad{
+        width: 80%;
+    }
+}
+@media(max-width: 870px){
     .nav-late{
         display: none;
     }

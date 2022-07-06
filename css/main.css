@@ -28,7 +28,7 @@ a{
     float: right;
     font-size: 2rem;
 }
-@media (min-width: 821px){
+@media (min-width: 871px){
     /*DESPLEGABLE*/
     .sub-menu{
         flex-direction: column;
