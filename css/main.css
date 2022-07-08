@@ -61,7 +61,7 @@ a{
     
     .search-btn,
     .icon-X{
-        /* display: none; */
+        display: none;
     }
 }
 
@@ -98,17 +98,17 @@ main{
 
 /*SEARCH*/
 
-.xmark-btn{
+.icon-X{
     display: none;
 }
 .search-btn,
-.xmark-btn{
+.icon-X{
     cursor: pointer;
 }
 .search-btn.show{
     display: none;
 }
-.xmark-btn.search{
+.icon-X.search{
     display: block;
 }
 .icon-X{
@@ -184,22 +184,26 @@ main{
         display: block;
     }
     /*SEARCH*/
+    .icon-X,
+    .search-btn.show,
     .xmark-btn{
         display: none;
     }
     .search-btn,
-    .xmark-btn{
+    .icon-X{
         cursor: pointer;
     }
-    .search-btn.show{
-        display: none;
-    }
+    .icon-X.search,
     .xmark-btn.search{
         display: block;
     }
-    .icon-X{
+    .icons-right{
+        position: relative;
         float: right;
         margin-left: 1vh;
+    }
+    .xmark-btn{
+        float: left;
     }
 }
 @media (max-width: 350px){
