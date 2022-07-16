@@ -16,13 +16,3 @@ document.querySelector(".apartado2").addEventListener("click", () => {
 });
 
 /*SEARCH*/
-document.querySelector(".icons-right").addEventListener("click", () => {
-    document.querySelector(".search-btn").classList.toggle("show");
-});
-document.querySelector(".icons-right").addEventListener("click", () => {
-    document.querySelector(".icon-X").classList.toggle("search");
-});
-
-document.querySelector(".icons-right").addEventListener("click", () => {
-    document.querySelector(".xmark-btn").classList.toggle("search");
-});

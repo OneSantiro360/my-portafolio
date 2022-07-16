@@ -57,6 +57,9 @@
     text-align: center;
     margin: 10px 0;
 }
+#invisible{
+    display: none;
+}
 
 /*RESPONSIVE*/
 @media(min-width: 871px){
